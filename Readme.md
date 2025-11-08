@@ -32,7 +32,7 @@ The process of recording and learning a new skill is divided into the following 
     - ```ori_pos_dmp_gmm.py```: Trains an integrated position and orientation DMP using Gaussian Mixture Models (GMM).
 
     - ```LinearRegression.py```: A basic Linear Regression model. **Note**: This file may require further development. 
-    - 
+  
 LWR is the primary regression-based approach and can approximate Linear Regression if the kernel width is set to a very large value.
 
 4. Generalization & Evaluation
@@ -62,13 +62,13 @@ These Python modules contain the core functions imported by the main training an
 - Provides essential functions for DMP formulation and kinematics, including:
 
     - ```smooth_positions```
-    - 
+      
     - ```kinematics (velocity and acceleration)```
-    - 
+      
     - ```forcing_target (calculating the DMP forcing term)```
-    - 
+      
     - ```canonical_phase```
-    - 
+      
     - ```calculate_hand_orientation```
 
 - **Note**: A function for smoothing orientation data is included but was not fully validated. The primary models currently use raw, unsmoothed orientation data.
